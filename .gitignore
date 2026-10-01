@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data
+# =========================
+Data
+data2
+Data/*
+data2/*
+!data/README.md
+!data/sample/
+
+# Large data files
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+
+# =========================
+# Models / Checkpoints
+# =========================
+models/
+checkpoints/
+outputs/
+runs/
+wandb/
+mlruns/
+
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Hugging Face cache
+.huggingface/
+.cache/
+hf_cache/
+
+
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Python Tools
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
